@@ -1,0 +1,34 @@
+
+<main class="main">
+  <div class="content">
+    <mat-card class="example-card" appearance="outlined" *ngFor="let item of data; let i = index;">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{item.childeName}}</mat-card-title>
+        <mat-card-subtitle>{{item.parentName}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <dl>
+          <dt>Age</dt>
+          <dd>{{item.Age}}</dd>
+          <dt>Talent:</dt>
+          <dd>{{item.typeofTalent}}</dd>
+          <dt *ngIf="item.other">Other:</dt>
+          <dd *ngIf="item.other">{{item.other}}</dd>
+          <dt>Address:</dt>
+          <dd>{{item.homeAddress}}</dd>
+          <dt>Contact:</dt>
+          <dd>{{item.contactNumber}}</dd>
+          <dt *ngIf="item.specReq">Special Req:</dt>
+          <dd *ngIf="item.specReq">{{item.specReq}}</dd>
+        </dl>
+      </mat-card-content>
+      
+      <mat-card-actions *ngIf="item.audioFile">
+        <button mat-button (click)="toggleAudio(item)">{{item.isPlaying ? 'Pause' : 'Play'}}</button>
+      </mat-card-actions>
+    </mat-card>
+    <audio #audioPlayer src="{{audioFile}}"></audio>
+  </div>
+</main>
+

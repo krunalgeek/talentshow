@@ -1,0 +1,30 @@
+.content {
+    padding: 10px;
+}
+.example-card {
+    width: 100%;
+    max-width: 500px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    margin: 10px auto;
+}
+
+.example-header-image {
+    background-image: url('https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9_719432-1310.jpg?w=2000');
+    background-size: cover;
+    margin-bottom: 0;
+    height: 65px;
+    width: 65px;
+}
+mat-card-header {
+    display: flex;
+    align-items: center;
+}
+body {
+    background-color: white;
+}
+
+dt { float: left; clear: left; width: 7em; font-weight: bold; }
+dd { float: left; }
+  
