@@ -1,6 +1,7 @@
 
 <main class="main">
   <div class="content">
+    <audio controls #audioPlayer src="{{audioFile}}"></audio>
     <mat-card class="example-card" appearance="outlined" *ngFor="let item of data; let i = index;">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image"></div>
@@ -28,7 +29,7 @@
         <button mat-button (click)="toggleAudio(item)">{{item.isPlaying ? 'Pause' : 'Play'}}</button>
       </mat-card-actions>
     </mat-card>
-    <audio #audioPlayer src="{{audioFile}}"></audio>
+    
   </div>
 </main>
 

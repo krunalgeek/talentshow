@@ -233,4 +233,8 @@ export class AppComponent {
     }
     data.isPlaying = !data.isPlaying;
   }
+  adjustVolume(event: Event) {
+    const volume = parseFloat((event.target as HTMLInputElement).value);
+    this.audioPlayerRef.nativeElement.volume = volume;
+  }
 }

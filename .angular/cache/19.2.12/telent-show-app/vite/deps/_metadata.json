@@ -1,0 +1,67 @@
+{
+  "hash": "61da3bb0",
+  "configHash": "add929a6",
+  "lockfileHash": "e8a378c8",
+  "browserHash": "316149fb",
+  "optimized": {
+    "@angular/cdk/bidi": {
+      "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
+      "file": "@angular_cdk_bidi.js",
+      "fileHash": "d83a5cc2",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "cd4b5c32",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "6a30361d",
+      "needsInterop": false
+    },
+    "@angular/material/button": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/button.mjs",
+      "file": "@angular_material_button.js",
+      "fileHash": "bedd1061",
+      "needsInterop": false
+    },
+    "@angular/material/card": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/card.mjs",
+      "file": "@angular_material_card.js",
+      "fileHash": "d4960895",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "8a88f37d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "dcc74f1f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TY73R3JQ": {
+      "file": "chunk-TY73R3JQ.js"
+    },
+    "chunk-YEMJVKAP": {
+      "file": "chunk-YEMJVKAP.js"
+    },
+    "chunk-RROKZ7WQ": {
+      "file": "chunk-RROKZ7WQ.js"
+    },
+    "chunk-GXAUJQSK": {
+      "file": "chunk-GXAUJQSK.js"
+    },
+    "chunk-FOW62D6L": {
+      "file": "chunk-FOW62D6L.js"
+    }
+  }
+}
