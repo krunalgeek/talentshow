@@ -16,6 +16,21 @@ export class AppComponent {
   @ViewChild('audioPlayer') audioPlayerRef!: ElementRef;
   data = [
     {
+      "Timestamp": "4/28/2025 10:18:43",
+      "childeName": "Mayukha, Smitika",
+      "Age": 9,
+      "isPlaying": false,
+      "parentName": "Vijay & Sachin P",
+      "homeAddress": "3084 Cedric ct",
+      "contactNumber": 6084815185,
+      "typeofTalent": "Dancing",
+      "other": "Maha Ganapathim (Official Lyric Video)",
+      "specReq": "Audio File Will be given",
+      // "audioFile": "https://drive.google.com/file/d/1HK1YpV3sBPFImoSRF_AvYmH2_U9uh-d8/view?usp=sharing",
+      "audioFile": "./audio/maha_ganapathim.mp3",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
+    {
       "Timestamp": "4/17/2025 9:18:49",
       "childeName": "Advika&Ishaan",
       "Age": 5,
@@ -28,6 +43,21 @@ export class AppComponent {
       "specReq": "bluetooth player and speaker",
       // "audioFile": "https://drive.google.com/file/d/1blbMTKnIGw1jC6j_OqVtrl5fLCGa3Oym/view?usp=sharing",
       "audioFile": "./audio/aankh_Marey.mp3",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
+    {
+      "Timestamp": "5/14/2025 15:03:17",
+      "childeName": "Mayukha and Rishya",
+      "Age": 9,
+      "isPlaying": false,
+      "parentName": "Vijay",
+      "homeAddress": "3084 Cedric ct",
+      "contactNumber": 6084816185,
+      "typeofTalent": "Dancing",
+      "other": "",
+      "specReq": "",
+      // "audioFile": "https://drive.google.com/file/d/1Yes8d4dYq7bf5OHSx--1RplSv2wG31e-/view?usp=sharing",
+      "audioFile": "./audio/shap_of_you.mp3",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
@@ -104,21 +134,6 @@ export class AppComponent {
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
-      "Timestamp": "4/28/2025 10:18:43",
-      "childeName": "Mayukha, Smitika",
-      "Age": 9,
-      "isPlaying": false,
-      "parentName": "Vijay & Sachin P",
-      "homeAddress": "3084 Cedric ct",
-      "contactNumber": 6084815185,
-      "typeofTalent": "Dancing",
-      "other": "Maha Ganapathim (Official Lyric Video)",
-      "specReq": "Audio File Will be given",
-      // "audioFile": "https://drive.google.com/file/d/1HK1YpV3sBPFImoSRF_AvYmH2_U9uh-d8/view?usp=sharing",
-      "audioFile": "./audio/maha_ganapathim.mp3",
-      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
-    },
-    {
       "Timestamp": "4/16/2025 21:08:57",
       "childeName": "Dhyani",
       "Age": 6,
@@ -172,21 +187,6 @@ export class AppComponent {
       "other": "Flute",
       "specReq": "",
       "audioFile": "",
-      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
-    },
-    {
-      "Timestamp": "5/14/2025 15:03:17",
-      "childeName": "Mayukha and Rishya",
-      "Age": 9,
-      "isPlaying": false,
-      "parentName": "Vijay",
-      "homeAddress": "3084 Cedric ct",
-      "contactNumber": 6084816185,
-      "typeofTalent": "Dancing",
-      "other": "",
-      "specReq": "",
-      // "audioFile": "https://drive.google.com/file/d/1Yes8d4dYq7bf5OHSx--1RplSv2wG31e-/view?usp=sharing",
-      "audioFile": "./audio/shap_of_you.mp3",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
