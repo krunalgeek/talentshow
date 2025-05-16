@@ -1,19 +1,22 @@
 import {
   FocusMonitor,
   MatCommonModule,
+  normalizePassiveListenerOptions
+} from "./chunk-CWFQNJ3T.js";
+import "./chunk-2O4WY5GE.js";
+import {
   Platform,
   _CdkPrivateStyleLoader,
   _bindEventWithOptions,
   _getEventTarget,
   coerceElement,
   isFakeMousedownFromScreenReader,
-  isFakeTouchstartFromScreenReader,
-  normalizePassiveListenerOptions
-} from "./chunk-TY73R3JQ.js";
-import "./chunk-YEMJVKAP.js";
+  isFakeTouchstartFromScreenReader
+} from "./chunk-J66ZINVP.js";
+import "./chunk-HXJJT3EJ.js";
 import {
   DOCUMENT
-} from "./chunk-GXAUJQSK.js";
+} from "./chunk-WEG3IA64.js";
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -50,15 +53,7 @@ import {
   ɵɵgetInheritedFactory,
   ɵɵprojection,
   ɵɵprojectionDef
-} from "./chunk-FOW62D6L.js";
-
-// node_modules/@angular/cdk/fesm2022/scrolling-BkvA05C8.mjs
-var RtlScrollAxisType;
-(function(RtlScrollAxisType2) {
-  RtlScrollAxisType2[RtlScrollAxisType2["NORMAL"] = 0] = "NORMAL";
-  RtlScrollAxisType2[RtlScrollAxisType2["NEGATED"] = 1] = "NEGATED";
-  RtlScrollAxisType2[RtlScrollAxisType2["INVERTED"] = 2] = "INVERTED";
-})(RtlScrollAxisType || (RtlScrollAxisType = {}));
+} from "./chunk-EBWV5TAY.js";
 
 // node_modules/@angular/cdk/fesm2022/platform.mjs
 var PlatformModule = class _PlatformModule {

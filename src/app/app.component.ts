@@ -46,6 +46,20 @@ export class AppComponent {
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
+      "Timestamp": "4/26/2025 19:03:36",
+      "childeName": "Glenn Muindi (Sonic)",
+      "Age": 10,
+      "isPlaying": false,
+      "parentName": "Jane Mburu",
+      "homeAddress": "3002 Cedric Ct",
+      "contactNumber": 6148442944,
+      "typeofTalent": "Magic Trick",
+      "other": "",
+      "specReq": "",
+      "audioFile": "",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
+    {
       "Timestamp": "5/14/2025 15:03:17",
       "childeName": "Mayukha and Rishya",
       "Age": 9,
@@ -76,18 +90,32 @@ export class AppComponent {
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
-      "Timestamp": "4/28/2025 14:57:31",
-      "childeName": "Anika Thallati & Mayukha Koulampet",
+      "Timestamp": "4/27/2025 11:03:49",
+      "childeName": "Anika Thallati",
       "Age": 9,
       "isPlaying": false,
       "parentName": "Naveen Thallati",
       "homeAddress": "3002 Cedric Ct",
       "contactNumber": 8479091981,
-      "typeofTalent": "Dancing",
-      "other": "English Song (Sia - Unstoppable)",
-      "specReq": "Music track - Unstoppable by Sia",
-      // "audioFile": "https://drive.google.com/file/d/1jmiVsgD3n3WAdrBH9Gt3l6DluAdcz9uK/view?usp=sharing",
-      "audioFile": "./audio/unstoppable.mp3",
+      "typeofTalent": "Playing an Instrument,",
+      "other": "",
+      "specReq": "Mic with stand (bluetooth speaker)",
+      "audioFile": "",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
+    {
+      "Timestamp": "4/27/2025 22:44:07",
+      "childeName": "Abhiram Thallati",
+      "Age": 5,
+      "isPlaying": false,
+      "parentName": "Naveen Thallati",
+      "homeAddress": "3002 Cedric Ct",
+      "contactNumber": 8479091981,
+      "typeofTalent": "Singing",
+      "other": "",
+      "specReq": "Mic with stand",
+      // "audioFile": "https://drive.google.com/file/d/1vKp5QOoSphPzJMUJHiBirtU0SOeWSsTL/view?usp=sharing",
+      "audioFile": "./audio/abhiraam.mp3",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
@@ -136,21 +164,6 @@ export class AppComponent {
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
-      "Timestamp": "4/27/2025 22:44:07",
-      "childeName": "Abhiram Thallati",
-      "Age": 5,
-      "isPlaying": false,
-      "parentName": "Naveen Thallati",
-      "homeAddress": "3002 Cedric Ct",
-      "contactNumber": 8479091981,
-      "typeofTalent": "Singing",
-      "other": "",
-      "specReq": "Mic with stand",
-      // "audioFile": "https://drive.google.com/file/d/1vKp5QOoSphPzJMUJHiBirtU0SOeWSsTL/view?usp=sharing",
-      "audioFile": "./audio/abhiraam.mp3",
-      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
-    },
-    {
       "Timestamp": "4/16/2025 21:08:57",
       "childeName": "Dhyani",
       "Age": 6,
@@ -162,6 +175,21 @@ export class AppComponent {
       "other": "Dance Monkey",
       "specReq": "",
       "audioFile": "./audio/dance_monkey.mp3",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
+    {
+      "Timestamp": "4/28/2025 14:57:31",
+      "childeName": "Anika Thallati & Mayukha Koulampet",
+      "Age": 9,
+      "isPlaying": false,
+      "parentName": "Naveen Thallati",
+      "homeAddress": "3002 Cedric Ct",
+      "contactNumber": 8479091981,
+      "typeofTalent": "Dancing",
+      "other": "English Song (Sia - Unstoppable)",
+      "specReq": "Music track - Unstoppable by Sia",
+      // "audioFile": "https://drive.google.com/file/d/1jmiVsgD3n3WAdrBH9Gt3l6DluAdcz9uK/view?usp=sharing",
+      "audioFile": "./audio/unstoppable.mp3",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
     {
@@ -190,34 +218,6 @@ export class AppComponent {
       "typeofTalent": "Playing an Instrument,",
       "other": "",
       "specReq": "Piano or keyboard  (Mine)",
-      "audioFile": "",
-      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
-    },
-    {
-      "Timestamp": "4/27/2025 11:03:49",
-      "childeName": "Anika Thallati",
-      "Age": 9,
-      "isPlaying": false,
-      "parentName": "Naveen Thallati",
-      "homeAddress": "3002 Cedric Ct",
-      "contactNumber": 8479091981,
-      "typeofTalent": "Playing an Instrument,",
-      "other": "",
-      "specReq": "Mic with stand (bluetooth speaker)",
-      "audioFile": "",
-      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
-    },
-    {
-      "Timestamp": "4/26/2025 19:03:36",
-      "childeName": "Glenn Muindi (Sonic)",
-      "Age": 10,
-      "isPlaying": false,
-      "parentName": "Jane Mburu",
-      "homeAddress": "3002 Cedric Ct",
-      "contactNumber": 6148442944,
-      "typeofTalent": "Magic Trick",
-      "other": "",
-      "specReq": "",
       "audioFile": "",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
