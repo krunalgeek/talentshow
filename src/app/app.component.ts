@@ -206,9 +206,9 @@ export class AppComponent {
     },
     {
       "Timestamp": "5/4/2025 8:32:19",
-      "childeName": "Arjun & Up next, get ready to groove with 11-year-olds Arjun and Shriti as they dance to the feel-good hit Sunroof by Nicky Youre and Dazy. Let’s cheer them on!",
+      "childeName": "Arjun & Shriti",
       "Age": 9,
-      "introduction": "",
+      "introduction": "Arjun & Up next, get ready to groove with 11-year-olds Arjun and Shriti as they dance to the feel-good hit Sunroof by Nicky Youre and Dazy. Let’s cheer them on!",
       "isPlaying": false,
       "parentName": "Mayank",
       "homeAddress": "3095 Cedric Ct",
