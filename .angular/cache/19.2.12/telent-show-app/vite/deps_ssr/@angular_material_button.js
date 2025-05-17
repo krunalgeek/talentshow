@@ -1,19 +1,16 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
-import "./chunk-JME5XKN5.js";
 import {
   FocusMonitor,
   MatCommonModule,
-  normalizePassiveListenerOptions
-} from "./chunk-OA7L5VB5.js";
-import {
   Platform,
   _CdkPrivateStyleLoader,
   _bindEventWithOptions,
   _getEventTarget,
   coerceElement,
   isFakeMousedownFromScreenReader,
-  isFakeTouchstartFromScreenReader
-} from "./chunk-KGTOEYQH.js";
+  isFakeTouchstartFromScreenReader,
+  normalizePassiveListenerOptions
+} from "./chunk-HVYPZQAK.js";
 import "./chunk-7ACVPLRB.js";
 import {
   DOCUMENT
@@ -57,6 +54,14 @@ import {
   __spreadProps,
   __spreadValues
 } from "./chunk-YHCV7DAQ.js";
+
+// node_modules/@angular/cdk/fesm2022/scrolling-BkvA05C8.mjs
+var RtlScrollAxisType;
+(function(RtlScrollAxisType2) {
+  RtlScrollAxisType2[RtlScrollAxisType2["NORMAL"] = 0] = "NORMAL";
+  RtlScrollAxisType2[RtlScrollAxisType2["NEGATED"] = 1] = "NEGATED";
+  RtlScrollAxisType2[RtlScrollAxisType2["INVERTED"] = 2] = "INVERTED";
+})(RtlScrollAxisType || (RtlScrollAxisType = {}));
 
 // node_modules/@angular/cdk/fesm2022/platform.mjs
 var PlatformModule = class _PlatformModule {
