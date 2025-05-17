@@ -237,16 +237,31 @@ export class AppComponent {
     },
     {
       "Timestamp": "5/2/2025 16:18:24",
-      "childeName": "Anshu Myneni",
-      "Age": 12,
-      "introduction": "Up next, we have Anshu Myneni, along with their talented band, ready to rock the stage with an exciting group performance. Get ready for some great music and amazing teamwork!",
+      "childeName": "Aashvik Sai & Devansh",
+      "Age": 6,
+      "introduction": "Up next, we have Aashvik, Sai, and Devansh, our energetic 6-year-olds, dancing to ‘Hare Raam Hare Raam’ from Bhool Bhulaiyaa 2. Let’s cheer them on",
       "isPlaying": false,
-      "parentName": "Basaveswara Rao Myneni",
+      "parentName": "Kalyan/Kavya & Prasanna/Hema",
       "homeAddress": "3070 Cedric ct",
       "contactNumber": 2017023929,
       "typeofTalent": "Other",
       "other": "Group Band performance",
       "specReq": "Music stands and chairs",
+      "audioFile": "./audio/bhool_bhulaiyaa.mp3",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
+    {
+      "Timestamp": "5/4/2025 6:40:38",
+      "childeName": "Aadi Govekar",
+      "Age": 10,
+      "introduction": "Aadi will be singing and playing on keyboard song.",
+      "isPlaying": false,
+      "parentName": "Sachin Porandla",
+      "homeAddress": "3120 cedric ct",
+      "contactNumber": 9803926661,
+      "typeofTalent": "Singing",
+      "other": "",
+      "specReq": "",
       "audioFile": "",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
     },
@@ -264,7 +279,22 @@ export class AppComponent {
       "specReq": "",
       "audioFile": "",
       "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
-    }
+    },
+    {
+      "Timestamp": "5/2/2025 16:18:24",
+      "childeName": "Anshu Myneni",
+      "Age": 12,
+      "introduction": "Up next, we have Anshu Myneni, along with their talented band, ready to rock the stage with an exciting group performance. Get ready for some great music and amazing teamwork!",
+      "isPlaying": false,
+      "parentName": "Basaveswara Rao Myneni",
+      "homeAddress": "3070 Cedric ct",
+      "contactNumber": 2017023929,
+      "typeofTalent": "Other",
+      "other": "Group Band performance",
+      "specReq": "Music stands and chairs",
+      "audioFile": "",
+      "Consent to Use Photos/Videos for Community Sharing?": "Yes, I give permission"
+    },
   ];
   toggleAudio(data: any) {
     const audio = this.audioPlayerRef.nativeElement;
