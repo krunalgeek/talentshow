@@ -18,8 +18,8 @@
           <dd *ngIf="item.other">{{item.other}}</dd>
           <dt>Address:</dt>
           <dd>{{item.homeAddress}}</dd>
-          <dt>Introduction:</dt>
-          <dd>{{item.introduction}}</dd>
+          <dt *ngIf="item.introduction">Introduction:</dt>
+          <dd *ngIf="item.introduction">{{item.introduction}}</dd>
           <dt>Contact:</dt>
           <dd>{{item.contactNumber}}</dd>
           <dt *ngIf="item.specReq">Special Req:</dt>
